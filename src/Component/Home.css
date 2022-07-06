@@ -107,6 +107,7 @@ button{
     .first-cont{
         width: 100%;
         padding: 2rem;
+        background-color: rgb(245,245,245)
     }
 
     .second-cont{
