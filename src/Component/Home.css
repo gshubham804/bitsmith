@@ -1,0 +1,137 @@
+.main-cont{
+    margin: 1% 14%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245,245,245)
+}
+
+.first-cont{
+    width: 55%;
+    padding: 5% 8% 5% 1%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+span{
+    color: blue;
+}
+
+.first-cont p{
+    text-align: justify;
+    color: rgb(119,119,119);
+    font-weight: 400;
+    font-size: 1.04rem;
+    line-height: 2rem;
+}
+
+.second-cont{
+    width: 45%;
+    text-align: center;
+    padding:3rem 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.input-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-cont .firstname{
+    margin-right: 1rem;
+}
+
+
+input[type=text],input[type=password]{
+    width: 100%;
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
+    font-size: 1rem;
+    font-weight:500;
+    border-radius: 5px;
+    border:1.5px solid rgb(189,189,189);
+}
+
+input[type="text"]::placeholder {  
+    padding-left: 10px; 
+} 
+
+input[type="password"]::placeholder{
+    padding-left: 8px;
+}
+
+button{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 2%;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    border-color: transparent;
+}
+
+.login-option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    color: blue;
+    font-size: 1rem;
+}
+
+.login-option>*{
+    margin:0.5rem 1rem;
+}
+
+.second-cont p,label{
+    color: rgb(119,119,119);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width:760px) {
+    .main-cont{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(245,245,245)
+    }
+
+    .first-cont{
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .second-cont{
+        width: 100%;
+        text-align: center;
+        padding:2rem;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .input-cont{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .input-cont .firstname{
+        margin-right: 1rem;
+    }
+    
+}
+
+
+
+
+
